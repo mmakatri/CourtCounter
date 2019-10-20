@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -26,7 +27,7 @@ public class MainActivity extends Activity {
      */
     public void resetAll(View v) {
 
-        if((scoreTeamB > 0) || (scoreTeamB > 0)) {
+        if((scoreTeamA > 0) || (scoreTeamB > 0)) {
 
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setTitle("Confirmation");
