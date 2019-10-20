@@ -21,7 +21,6 @@ public class MainActivity extends Activity {
         //displayForTeamA(0);
     }
 
-
     /**
      * Increase the score for Team A by 3 points.
      */
@@ -91,8 +90,6 @@ public class MainActivity extends Activity {
         TextView scoreView = (TextView) findViewById(R.id.team_b_score);
         scoreView.setText(String.valueOf(score));
     }
-
-
 
     /**
      * Increase the score for Team A by 1 point.
